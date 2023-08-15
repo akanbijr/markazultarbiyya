@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Markazul Tarbiyya Islamic School</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="https://smtpjs.com/v3/smtp.js"></script>
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <nav class="navigation" id="navigation">
+      <div class="navigation__prev">
+        Call us on:<a href="tel:+234(0)8030634568">+234(0)8030634568 </a>
+      </div>
+      <div class="navigation__container">
+        <div class="navigation__logo-container">
+          <a href="/index.html">
+            <img
+              src="assets/img/logo.svg"
+              alt="Markazul Tarbiyya Islamic School logo"
+              class="navigation__logo"
+              loading="lazy"
+            />
+          </a>
+        </div>
+        <ul class="navigation__links" id="navigation__links">
+          <li class="navigation__item">
+            <a href="/index.html" class="navigation__link">Home</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/about.html" class="navigation__link">About Us</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/contact.html" class="navigation__link">Contact</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/gallery.html" class="navigation__link">Gallery</a>
+          </li>
+
+          <li class="navigation__item">
+            <a
+              href="https://blog.markazultarbiyya.com.ng/"
+              class="navigation__link"
+              >Blog</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a
+              href="https://blog.markazultarbiyya.com.ng/donations"
+              class="navigation__link btn btn-primary"
+              >Donations</a
+            >
+          </li>
+        </ul>
+        <button class="navigation__hamburger" id="navigation__hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="contact__container">
+      <div class="contact__contact">
+        <div class="contact__form">
+          <p>Get in touch with us:</p>
+          <form onsubmit="sendEmail(); reset(); return false;">
+            <input type="text" name="" id="name" placeholder="Name" required />
+            <input
+              type="email"
+              name=""
+              id="email"
+              placeholder="Email"
+              required
+            />
+            <textarea
+              name=""
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Your message"
+              required
+            ></textarea>
+            <button type="submit" class="btn mt-small">Send</button>
+          </form>
+        </div>
+        <aside class="contact__aside"></aside>
+      </div>
+      <div class="contact__map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.038905980815!2d7.388669214786869!3d9.060215793499205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104dd9d7ef82fa63%3A0x32705be5f2559127!2sKanulim%20Academy!5e0!3m2!1sen!2sng!4v1667885485455!5m2!1sen!2sng"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__widget-container">
+        <div class="footer__widget--1">
+          <div class="footer__logo-container mb-tiny">
+            <img src="assets/img/logo.svg" alt="" class="footer__logo" />
+          </div>
+          <p>Markazul Tarbiyya Islamic School</p>
+          <p class="footer__address">
+            House C5 Old NEPA Road, Kuje Municipal Area Council,<br />
+            Federal Capital Territory, <br />900105,<br />Abuja, Nigeria.
+          </p>
+        </div>
+        <div class="footer__widget--2">
+          <h3 class="mb-small">Helpful Links</h3>
+          <ul class="footer__links">
+            <li class="footer__item">
+              <a href="/index.html" class="footer__link">Home</a>
+            </li>
+            <li class="footer__item">
+              <a href="/about.html" class="footer__link">About Us</a>
+            </li>
+            <li class="footer__item">
+              <a href="/contact.html" class="footer__link">Contact</a>
+            </li>
+            <li class="footer__item">
+              <a
+                href="https://blog.markazultarbiyya.com.ng/donations"
+                class="footer__link"
+                >Donations</a
+              >
+            </li>
+            <li class="footer__item">
+              <a
+                href="https://blog.markazultarbiyya.com.ng"
+                class="footer__link"
+                >Blog</a
+              >
+            </li>
+            <li class="footer__item">
+              <a href="/gallery.html" class="footer__link">Gallery</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__widget--3">
+          <h3 class="mb-small">Get in touch</h3>
+          <ul class="footer__social-links">
+            <li class="footer__item">
+              <a
+                target="_blank"
+                href="https://facebook.com/markazultarbiyya"
+                class="footer__link"
+                ><i class="fi fi-brands-facebook"></i
+              ></a>
+            </li>
+            <li class="footer__item">
+              <a
+                target="_blank"
+                href="https://instagram.com/markazultarbiyya"
+                class="footer__link"
+                ><i class="fi fi-brands-instagram"></i
+              ></a>
+            </li>
+            <li class="footer__item">
+              <a
+                target="_blank"
+                href="https://twitter.com/markazultarbiyya"
+                class="footer__link"
+                ><i class="fi fi-brands-twitter"></i
+              ></a>
+            </li>
+            <li class="footer__item">
+              <a
+                target="_blank"
+                href="https://tiktok.com/markazultarbiyya"
+                class="footer__link"
+                ><i class="fi fi-brands-tik-tok"></i
+              ></a>
+            </li>
+            <li class="footer__item">
+              <a
+                target="_blank"
+                href="https://whatsapp.com/markazultarbiyya"
+                class="footer__link"
+                ><i class="fi fi-brands-whatsapp"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__widget--4">
+          <h3 class="mb-small">Contact Us</h3>
+          <ul class="footer__links">
+            <li class="footer__item">
+              <div class="footer__item--container-social">
+                <i class="fi fi-rs-phone-call"></i>
+                <a href="tel:+234(0)8030634568" class="footer__link"
+                  >+234(0)8030634568</a
+                >
+              </div>
+            </li>
+            <li class="footer__item">
+              <div class="footer__item--container-social">
+                <i class="fi fi-rr-envelope"></i>
+                <a
+                  href="mailto:contact@markazultarbiyya.com.ng"
+                  class="footer__link"
+                  >contact@markazultarbiyya.com.ng</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__legal">
+        <p class="footer__legal-text">
+          &copy; Copyright 2023 | Markazul Tarbiyya Islamic School - All Rights
+          Reserved | Developed and designed by
+          <a
+            href="http://akanbijr.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            AkanbiJR
+          </a>
+        </p>
+      </div>
+    </footer>
+    <div class="scroll-to-top" onclick="scrollToTop();"><p>&uarr;</p></div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- <script>
+      const sendEmail = () => {
+        Email.send({
+          Host: 'smtp.gmail.com',
+          Username: 'avinash6252@gmail.com',
+          Password: 'password',
+          To: 'akanbijr@gmail.com',
+          From: document.getElementById('email').value,
+          Subject: 'New contact form entry from Markazul Tarbiyya',
+          Body:
+            'Name: ' +
+            document.getElementById('name').value +
+            '<br> Email: ' +
+            document.getElementById('email').value +
+            '<br> Message: ' +
+            document.getElementById('message').value,
+        }).then(message => alert('Message sent successfully'));
+      };
+    </script> -->
+  </body>
+</html>
